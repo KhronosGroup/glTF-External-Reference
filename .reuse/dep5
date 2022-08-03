@@ -1,0 +1,15 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: glXF
+Source: https://github.com/KhronosGroup/glXF
+
+Files: extensions/2.0/Vendor/*
+Copyright: 2022 Various Authors
+License: LicenseRef-TBD
+
+Files: extensions/2.0/Khronos/*
+Copyright: 2022 The Khronos Group Inc.
+License: LicenseRef-KhronosSpecCopyright
+
+Files: specification/2.0/schema/* specification/2.0/figures/* specification/figures/*
+Copyright: 2022 The Khronos Group Inc.
+License: LicenseRef-KhronosSpecCopyright
