@@ -16,8 +16,8 @@ License: LicenseRef-KhronosSpecCopyright
 
 Files: explainers/*.md
 Copyright: 2024 Daly Realism
-License: CC-BY-NC-4.0
+License: CC-BY-4.0
 
 Files: explainers/images/*
 Copyright: 2024 The Khronos Group, Inc.
-License: CC-BY-NC-4.0
+License: CC-BY-4.0
