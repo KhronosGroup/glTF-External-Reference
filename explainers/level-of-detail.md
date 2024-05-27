@@ -29,4 +29,10 @@ It was found that no single measure is sufficient for all cases to determine the
 
 The measure for determining which model to use must not generate flashing or similar effects if the scene display is near the transition value. This either requires a "fuzz" factor that is applied uniformly to all transition values or a more complex data structure to explicitly list the transition ranges.
 
+THe stability that is desired is illustrated in the graph below. The trapizodial region is stable as the LOD measure changes from "Near" to "Far" (or vice-versa). The displayed LOD level is not determined by solely the measure but depends on the direction of traversal.
+
+Illustration of LOD level vs. LOD Measure
+![Illustration of LOD level vs. LOD Measure](images/hysterisis.png)
+_The arrows indicate the direction of change of the measure (horizontal axis). Green double-headed arrows indicate determination based on the Measure. Single-headed arrows indicates the LOD when the Measure changes in the indicated direction. The LOD only transitions at T1 or T2. There is no transition except those points._
+
 _ran out of time. Need to expand this section is schema fragments and images. An illustration of the transition would be helpful using a hysteresis loop. (probably need to construct this). Reference material is in Khronos-only file at https://members.khronos.org/wg/3D_Formats/document/previewpdf/32333._
