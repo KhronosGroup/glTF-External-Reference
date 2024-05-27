@@ -31,7 +31,8 @@ The measure for determining which model to use must not generate flashing or sim
 
 THe stability that is desired is illustrated in the graph below. The trapizodial region is stable as the LOD measure changes from "Near" to "Far" (or vice-versa). The displayed LOD level is not determined by solely the measure but depends on the direction of traversal.
 
-Illustration of LOD level vs. LOD Measure
+**Illustration of LOD level vs. LOD Measure**
+
 ![Illustration of LOD level vs. LOD Measure](images/hysterisis.png)
 _The arrows indicate the direction of change of the measure (horizontal axis). Green double-headed arrows indicate determination based on the Measure. Single-headed arrows indicates the LOD when the Measure changes in the indicated direction. The LOD only transitions at T1 or T2. There is no transition except those points._
 
