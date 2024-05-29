@@ -13,3 +13,11 @@ License: LicenseRef-KhronosSpecCopyright
 Files: specification/2.0/schema/* specification/2.0/figures/* specification/figures/*
 Copyright: 2022 The Khronos Group Inc.
 License: LicenseRef-KhronosSpecCopyright
+
+Files: explainers/*.md
+Copyright: 2024 Daly Realism
+License: CC-BY-4.0
+
+Files: explainers/images/*
+Copyright: 2024 The Khronos Group, Inc.
+License: CC-BY-4.0
