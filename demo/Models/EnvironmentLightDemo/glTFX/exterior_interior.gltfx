@@ -1,0 +1,50 @@
+{
+    "asset": {
+        "version": "2.0",
+        "experience": true
+    },
+    "assets": [
+        {
+            "uri": "silent_hill_2_baldwin_study_room_normal.glb",
+            "lightSource": "asset",
+            "environment": 1
+        },
+        {
+            "uri": "Building_BeaverHollow.glb",
+            "lightSource": "scene",
+            "environment": 1
+        }
+    ],
+    "environments":[ {
+        "uri": "fireplace_2k.hdr", 
+        "intensity": 0.4
+    },{
+        "uri": "syferfontein_6d_clear_puresky_2k.hdr", 
+        "intensity": 3.5
+    }],
+    "nodes": [
+        {
+            "name": "root",
+            "children": [1,2]
+        },
+        {
+            "name": "interior",
+            "asset": 0,
+            "translation":[1.82, 0.0, -21.2659],
+            "scale":[0.04805955,  0.04299696907401,  0.04805955]
+        },
+        {
+            "name": "exterior",
+            "translation":[0.0, 0.0, 0.0],
+            "asset": 1
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ]
+}

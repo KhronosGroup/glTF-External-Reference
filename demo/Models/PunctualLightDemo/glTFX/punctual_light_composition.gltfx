@@ -1,0 +1,73 @@
+{
+    "asset": {
+        "version": "2.0",
+        "experience": true
+    },
+    "assets": [
+        {
+            "uri": "twin_angels_edited.glb",
+            "lightSource": "scene"
+        },
+        {
+            "uri": "trainstation_light_b.glb",
+            "lightSource": "scene"
+        },
+        {
+            "uri": "barn.glb",
+            "lightSource": "scene"
+        },
+        {
+            "uri": "camera_animated.glb"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "root",
+            "children": [1,2,6,7]
+        },
+        {
+            "name": "twin_angels_edited",
+            "translation":[0.0, 0.0, 0.0],
+            "asset": 0
+        },
+        {
+            "name": "trainstation translation",
+            "children": [3],
+            "translation":[0.098, 0.0236, 0.097]
+        },
+        {
+            "name": "trainstation translation rotation",
+            "children": [4],
+            "translation":[4.679, 0.0, 2.557],
+            "rotation":[0.0, 0.556, 0.0, 0.831] 
+        },
+        {
+            "name": "trainstation_light",
+            "asset": 1, 
+            "scale":[0.1390, 0.1390, 0.1390]
+        },
+        {
+            "name": "barn",
+            "asset": 2,
+            "scale":[0.1390, 0.1390, 0.1390]
+        },
+        {
+            "name": "barn transform",
+            "children": [5],
+            "translation":[6.822,-0.062,0.8718],
+            "rotation":[0.00569,0.1632,-0.0344,0.98597] 
+        },
+        {
+            "name": "cam",
+            "asset": 3
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ]
+}

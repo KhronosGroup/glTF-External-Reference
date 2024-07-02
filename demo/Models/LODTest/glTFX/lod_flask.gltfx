@@ -1,0 +1,65 @@
+{
+    "asset": {
+        "version": "2.0",
+        "experience": true
+    },
+    "assets": [
+        {
+            "uri": "medieval_flask_neutral_animated.glb",
+            "min":[0.0, 0.0, 0.0],
+            "max":[1.0, 1.0, 1.0],
+            "lod": [
+                {
+                    "uri": "medieval_flask_neutral.glb",
+                    "byteLength": 8700,
+                    "qualityPixels": 700,
+                    "screenCoverage": 0.5,
+                    "distance": 5.5
+                },
+                {
+                    "uri": "medieval_flask_drako_6_jpg.glb",
+                    "byteLength": 4700,
+                    "qualityPixels": 400,
+                    "screenCoverage": 0.15,
+                    "distance": 10.0
+                },
+                {
+                    "uri": "medieval_flask_drako_5_compressed.glb",
+                    "byteLength": 3700,
+                    "qualityPixels": 200,
+                    "screenCoverage": 0.04,
+                    "distance": 30.0
+                }
+            ] 
+        } 
+    ],
+    "nodes": [
+        {
+            "name": "gltfx_root_node",
+            "children": [1 ]
+        },
+        {
+            "name": "gltfx_asset_node",
+            "translation":[0.0, 0.0, 0.0],
+            "asset": 0
+        },
+        {
+            "name": "gltfx_asset_node",
+            "translation":[5.0, 0.0, 0.0],
+            "asset": 0
+        },
+        {
+            "name": "gltfx_asset_node",
+            "translation":[10.0, 0.0, 0.0],
+            "asset": 0
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ]
+}
