@@ -1,0 +1,32 @@
+[
+  {
+    "name": "BillboardDemo",
+    "variants": {
+      "glTF": "BillboardDemo.gltf"
+    }
+  },
+  {
+    "name": "EnvironmentLightDemo",
+    "variants": {
+      "glTFX": "exterior_interior.gltfx"
+    }
+  },
+  {
+    "name": "LODTest",
+    "variants": {
+      "glTFX": "lod_flask.gltfx"
+    }
+  },
+  {
+    "name": "PunctualLightDemo",
+    "variants": {
+      "glTFX": "punctual_light_composition.gltfx"
+    }
+  },
+  {
+    "name": "RoomWithChess",
+    "variants": {
+      "glTFX": "chess.gltfx"
+    }
+  }
+]
