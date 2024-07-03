@@ -21,4 +21,4 @@ These documents are not the specification.
 
 * [Level of Detail](level-of-detail.md) - Describes situations where a model must change because more or less detail is needed. Several different measures for determining transition points are discussed
 
-* [Billboard](billboard.md) - _not yet written_
+* [Billboard](billboard.md) - Describes a draft glTF extension which instructs a node to align itself with the current camera.
