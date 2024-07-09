@@ -67,3 +67,5 @@ $scaleFactor = \frac{(worldTranslation_{model} * viewMatrix).z}{(worldTranslatio
 Now we can apply the $model_{rotation}$ to the model matrix and set the translation of the model matrix to the original one, since billboards only affect rotation and scale.
 
 If `overlay` option is given, the depth value of affected primitives needs to be set to zero. If multiple billboards with overlay are present, than they need to be depth sorted based on their position and an increasing Z value near zero should be used. This avoids Z-fighting.
+
+[Billboard sample code](https://github.com/KhronosGroup/glTF-Sample-Viewer/blob/87dcecf011e8626f50ca780c0258f8dd919f262a/source/gltf/scene.js#L36)
