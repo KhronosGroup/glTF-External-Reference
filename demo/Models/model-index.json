@@ -6,6 +6,12 @@
     }
   },
   {
+    "name": "VFXTest",
+    "variants": {
+      "glTF": "VFXTest.gltf"
+    }
+  },
+  {
     "name": "EnvironmentLightDemo",
     "variants": {
       "glTFX": "exterior_interior.gltfx"

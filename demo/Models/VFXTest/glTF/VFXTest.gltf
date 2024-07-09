@@ -1,0 +1,317 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5126,
+			"count": 4,
+			"max": [
+				1,
+				0,
+				1
+			],
+			"min": [
+				-1,
+				0,
+				-1
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 4,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 4,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5123,
+			"count": 6,
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5126,
+			"count": 4,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 5,
+			"componentType": 5126,
+			"count": 4,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 6,
+			"componentType": 5126,
+			"count": 4,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 7,
+			"componentType": 5126,
+			"count": 64,
+			"max": [
+				4
+			],
+			"min": [
+				0
+			],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 8,
+			"componentType": 5126,
+			"count": 128,
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 9,
+			"componentType": 5126,
+			"count": 24,
+			"max": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"min": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 10,
+			"componentType": 5126,
+			"count": 24,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 11,
+			"componentType": 5126,
+			"count": 24,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 12,
+			"componentType": 5123,
+			"count": 36,
+			"type": "SCALAR"
+		}
+	],
+	"animations": [
+		{
+			"channels": [
+				{
+					"sampler": 0,
+					"target": {
+						"node": 0,
+						"path": "weights"
+					}
+				}
+			],
+			"samplers": [
+				{
+					"input": 7,
+					"interpolation": "STEP",
+					"output": 8
+				}
+			]
+		}
+	],
+	"asset": {
+		"generator": "test",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 48,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 48,
+			"byteOffset": 48
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32,
+			"byteOffset": 96
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12,
+			"byteOffset": 128
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32,
+			"byteOffset": 140
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32,
+			"byteOffset": 172
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32,
+			"byteOffset": 204
+		},
+		{
+			"buffer": 0,
+			"byteLength": 256,
+			"byteOffset": 236
+		},
+		{
+			"buffer": 0,
+			"byteLength": 512,
+			"byteOffset": 492
+		},
+		{
+			"buffer": 0,
+			"byteLength": 288,
+			"byteOffset": 1004
+		},
+		{
+			"buffer": 0,
+			"byteLength": 288,
+			"byteOffset": 1292
+		},
+		{
+			"buffer": 0,
+			"byteLength": 192,
+			"byteOffset": 1580
+		},
+		{
+			"buffer": 0,
+			"byteLength": 72,
+			"byteOffset": 1772
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 1844,
+			"uri": "file_4.bin"
+		}
+	],
+	"extensionsUsed": [
+		"KHR_billboard",
+		"KHR_materials_unlit"
+	],
+	"images": [
+		{
+			"name": "ParticleAtlas",
+			"uri": "ParticleAtlas.png"
+		}
+	],
+	"materials": [
+		{
+			"alphaMode": "BLEND",
+			"doubleSided": true,
+			"extensions": {
+				"KHR_materials_unlit": {}
+			},
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				}
+			}
+		},
+		{}
+	],
+	"meshes": [
+		{
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 1,
+						"POSITION": 0,
+						"TEXCOORD_0": 4
+					},
+					"indices": 3,
+					"material": 0,
+					"targets": [
+						{
+							"TEXCOORD_0": 5
+						},
+						{
+							"TEXCOORD_0": 6
+						}
+					]
+				}
+			],
+			"weights": [
+				0,
+				0
+			]
+		},
+		{
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 10,
+						"POSITION": 9,
+						"TEXCOORD_0": 11
+					},
+					"indices": 12,
+					"material": 1
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"extensions": {
+				"KHR_billboard": {
+					"overlay": false,
+					"up": [
+						0,
+						0,
+						-1
+					],
+					"viewDirection": [
+						0,
+						1,
+						0
+					]
+				}
+			},
+			"mesh": 0,
+			"translation": [
+				-0.5164599567651749,
+				0.47032034397125244,
+				0.4791407883167267
+			]
+		},
+		{
+			"mesh": 1,
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [
+				0,
+				1
+			]
+		}
+	],
+	"textures": [
+		{
+			"name": "ParticleAtlas",
+			"source": 0
+		}
+	]
+}
