@@ -36,7 +36,8 @@ The following is the extension object which can be defined as an extension for a
 | `rotationAxis` | `"None"` | Can be used to limit the billboard rotation to an axis. By default it is rotated around all axes. Possible values: `"None"`, `"X"`, `"Y"`, `"Z"` 
 | `overlay` | `false` | Defines if the billboard should be renderer in front of all other meshes and therefore never occluded. If two billboards with this property set to `true` overlap, their original node translation should be considered for ordering.
 
-
+## Result
+![Billboard video](videos/billboards.mp4)
 
 ## Implementation notes
 This section describes a sample implementation.\
