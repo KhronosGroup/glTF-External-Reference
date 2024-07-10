@@ -8,6 +8,11 @@ By pressing `CTRL` and clicking on another asset, the selected asset will be mov
 
 In future work one could add the possibility to dynamically add more assets to a scene, replace assets in a scene or export the new glTFX file.
 
+
+https://github.com/KhronosGroup/glTF-External-Reference/assets/50208655/93191e4f-5f3f-40d5-97b3-da442e623fe1
+
+![Alternative link](https://raw.githubusercontent.com/KhronosGroup/glTF-External-Reference/picking/explainers/videos/scene_arrangement.mp4)
+
 ## Implementation Notes
 To create this demo, we need create a new offscreen framebuffer, which will write an color ID per asset, the position and the normal for each fragment into a texture output. We can then select the picked pixel to extract the information. One wants to exclude already selected assets from this draw call to allow smooth translation on the surfaces below.\
 If one wants to improve performance, these textures can just be 1x1 pixels of the cursor position by manipulating the camera space.\
