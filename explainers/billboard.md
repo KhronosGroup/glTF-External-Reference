@@ -37,7 +37,11 @@ The following is the extension object which can be defined as an extension for a
 | `overlay` | `false` | Defines if the billboard should be renderer in front of all other meshes and therefore never occluded. If two billboards with this property set to `true` overlap, their original node translation should be considered for ordering.
 
 ## Result
-![Billboard video](videos/billboards.mp4)
+
+https://github.com/KhronosGroup/glTF-External-Reference/assets/50208655/953d809c-67dd-4538-a98e-86e10ab90c59
+
+![Alternative link](https://raw.githubusercontent.com/KhronosGroup/glTF-External-Reference/billboards/explainers/videos/billboards.mp4)
+
 
 ## Implementation notes
 This section describes a sample implementation.\
