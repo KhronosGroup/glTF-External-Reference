@@ -1,0 +1,33 @@
+{
+    "version": 2,
+    "legal": [
+       
+        {
+            "license": "CC-BY-NC-ND",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/3.0/fr/deed.en",
+            "artist": "http://www.opengl-tutorial.org",
+            "year": "2013",
+            "owner": "http://www.opengl-tutorial.org",
+            "what": "Texture sprite"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "UX3D GmbH",
+            "year": "2024",
+            "owner": "Khronos Group",
+            "what": "glTFX composing",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "gltfx",
+        "extension"
+    ],
+    "name": "VFX Billboard Demo",
+    "path": "./Models/VFXTest",
+    "createReadme": true
+}

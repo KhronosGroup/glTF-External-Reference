@@ -1,0 +1,54 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Nik (https://skfb.ly/oKxPw)",
+            "year": "2023",
+            "owner": "Nik (https://skfb.ly/oKxPw)",
+            "what": "Khertvisi Fortress - Raw Scan",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "EFX (https://skfb.ly/oM8uB)",
+            "year": "2023",
+            "owner": "EFX (https://skfb.ly/oM8uB)",
+            "what": "Billboard Tree Pack",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "Apache 2.0",
+            "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+            "artist": "Christian Robertson",
+            "year": "2023",
+            "owner": "Christian Robertson",
+            "what": "Font: Roboto"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "UX3D GmbH",
+            "year": "2024",
+            "owner": "Khronos Group",
+            "what": "glTFX composing",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "gltfx",
+        "extension"
+    ],
+    "name": "Billboard Demo",
+    "path": "./Models/BillboardDemo",
+    "createReadme": true
+}
