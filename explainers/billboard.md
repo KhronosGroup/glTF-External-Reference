@@ -43,6 +43,9 @@ https://github.com/KhronosGroup/glTF-External-Reference/assets/50208655/953d809c
 ![Alternative link](https://raw.githubusercontent.com/KhronosGroup/glTF-External-Reference/billboards/explainers/videos/billboards.mp4)
 
 
+### Child node behavior
+In this implementation the billboard extension replaces the rotation and scale of its node. Therefore, child nodes also consider this new transform, but do not necessarily point towards the camera. The extension also needs to be added to the child node, if this should be ensured. One can discuss in the future if this is the desired behavior, if the extension should be applied recursively or if child nodes should not be affected at all. 
+
 ## Implementation notes
 This section describes a sample implementation.\
 All vectors should be normalized between operations if not mentioned otherwise. 
