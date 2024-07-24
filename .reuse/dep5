@@ -30,7 +30,7 @@ Copyright:
   2024 The Khronos Group, Inc.
 License: CC-BY-4.0 AND Apache-2.0
 
-Files: demo/Models/EnvironmentLight/*
+Files: demo/Models/EnvironmentLightDemo/*
 Copyright: 
   2023 Rehman_Is_Here (https://skfb.ly/oNQzL)
   2023 m3org (https://skfb.ly/oO6Hp)
