@@ -6,29 +6,29 @@
     "assets": [
         {
             "uri": "medieval_flask_neutral_animated.glb",
-            "min":[0.0, 0.0, 0.0],
-            "max":[1.0, 1.0, 1.0],
+            "min":[-4.4, 0.0, -4.4],
+            "max":[ 8.3, 16.0, 4.4],
             "lod": [
                 {
                     "uri": "medieval_flask_neutral.glb",
-                    "byteLength": 8700,
+                    "byteLength": 10899436,
                     "qualityPixels": 700,
                     "screenCoverage": 0.5,
-                    "distance": 5.5
+                    "distance": 150.0
                 },
                 {
                     "uri": "medieval_flask_drako_6_jpg.glb",
-                    "byteLength": 4700,
+                    "byteLength": 5154892,
                     "qualityPixels": 400,
                     "screenCoverage": 0.15,
-                    "distance": 10.0
+                    "distance": 300.0
                 },
                 {
                     "uri": "medieval_flask_drako_5_compressed.glb",
-                    "byteLength": 3700,
+                    "byteLength": 1969992,
                     "qualityPixels": 200,
                     "screenCoverage": 0.04,
-                    "distance": 30.0
+                    "distance": 500.0
                 }
             ] 
         } 
@@ -36,7 +36,7 @@
     "nodes": [
         {
             "name": "gltfx_root_node",
-            "children": [1 ]
+            "children": [1]
         },
         {
             "name": "gltfx_asset_node",
