@@ -6,12 +6,10 @@
     "assets": [
         {
             "uri": "silent_hill_2_baldwin_study_room_normal.glb",
-            "lightSource": "asset",
-            "environment": 1
+            "environment": 0
         },
         {
             "uri": "Building_BeaverHollow.glb",
-            "lightSource": "scene",
             "environment": 1
         }
     ],

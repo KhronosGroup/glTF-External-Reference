@@ -19150,7 +19150,7 @@ class gltfPrimitive extends GltfObject
         }
 
         this.computeCentroid(gltf);
-        this.computeMeanDensity(gltf);
+        // this.computeMeanDensity(gltf);
     }
 
     computeCentroid(gltf)
@@ -22018,7 +22018,10 @@ class gltfLoader
         await buffersPromise; // images might be stored in the buffers
         const imagesPromise = gltfLoader.loadImages(gltf, additionalFiles);
 
-        return await Promise.all([buffersPromise, imagesPromise])
+        // load environments that are not dropped and have to be loaded via file uri
+        const environmentPromise = gltfLoader.loadEnvironments(gltf, additionalFiles);
+
+        return await Promise.all([buffersPromise, imagesPromise, environmentPromise])
             .then(() => gltf.initGl(webGlContext));
     }
 
@@ -22123,6 +22126,42 @@ class gltfLoader
             imagePromises.push(image.load(gltf, additionalFiles));
         }
         return Promise.all(imagePromises);
+    }
+
+    static loadEnvironments(gltf, additionalFiles)
+    {
+        function getFileByURI(uri, dataArray){
+            for (let data of dataArray) { 
+                if (typeof (File) !== 'undefined' && data instanceof File){ 
+                    if (data.name ===uri){
+                        return data;
+                    }
+                }
+            }
+            return undefined;
+        }
+
+        const promises = [];
+        for (let environment of gltf.environments)
+        {
+            if (getFileByURI(environment.uri, additionalFiles)!==undefined) {
+                continue;
+            }
+
+            const path = getContainingFolder(gltf.path) + environment.uri;
+            const promise =axios.get(path, { responseType: 'arraybuffer'})
+                .then(function(response)
+                {   
+                    environment.data =  response.data; 
+                }).catch(()=>{});
+            
+            promises.push(promise);
+        }
+
+       
+
+ 
+        return Promise.all(promises);
     }
 }
 
@@ -52764,25 +52803,27 @@ class ResourceLoader
     }
         
     async filterEnvironments(gltf, appendix)
-    {
+    {   
         function getFileByURI(uri, dataArray){
             for (let data of dataArray) { 
                 if (typeof (File) !== 'undefined' && data instanceof File){ 
                     if (data.name ===uri){
-                        return data
+                        return data;
                     }
                 }
             }
-            return undefined
+            return undefined;
         }
 
         if (gltf.environments===undefined){            
-            return
+            return;
         }
         
         for (let environment of gltf.environments){ 
             let hdrFile = getFileByURI(environment.uri, appendix);
-            console.log(hdrFile ); 
+            if(hdrFile === undefined) {
+                hdrFile = environment.data;
+            }
             environment.filteredEnvironment = await this.loadEnvironment(hdrFile);
             environment.filteredEnvironment.intensity = environment.intensity;
         }
@@ -54624,6 +54665,10 @@ var main = async () => {
             resourceLoader.initKtxLib();
 
             return from(resourceLoader.loadAsset(model.mainFile, model.additionalFiles).then( (gltfPackage) => {
+
+
+                state.files={mainFile:model.mainFile, additionalFiles: model.additionalFiles};
+
                 state.parsedgltf = gltfPackage.parsedgltf;
                 state.gltf = gltfPackage.gltf;
                 const defaultScene = state.gltf.scene;
