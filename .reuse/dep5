@@ -74,7 +74,7 @@ Copyright:
   2024 The Khronos Group, Inc.
 License: CC-BY-NC-ND-1.0 AND CC-BY-4.0
 
-Files: demo/assets/ui/*
+Files: demo/assets/**
 Copyright:
   2024 The Khronos Group, Inc.
 License: Apache-2.0
@@ -85,7 +85,7 @@ Copyright:
   https://github.com/KhronosGroup/glTF-Sample-Viewer
 License: Apache-2.0
 
-Files: demo/assets/environments/Cannon_Exterior.hdr
+Files: demo/environments/Cannon_Exterior.hdr
 Copyright:
   2021 Greg Zaal
 License: CC0-1.0
