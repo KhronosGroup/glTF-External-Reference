@@ -83,6 +83,8 @@ Copyright:
 License: Apache-2.0
 
 Files: demo/assets/environments/Cannon_Exterior.hdr
+Copyright:
+  2021 Greg Zaal
 License: CC0-1.0
 
 Files: demo/libs/libktx*
