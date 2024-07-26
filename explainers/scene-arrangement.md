@@ -11,7 +11,7 @@ In future work one could add the possibility to dynamically add more assets to a
 
 https://github.com/KhronosGroup/glTF-External-Reference/assets/50208655/93191e4f-5f3f-40d5-97b3-da442e623fe1
 
-![Alternative link](https://raw.githubusercontent.com/KhronosGroup/glTF-External-Reference/picking/explainers/videos/scene_arrangement.mp4)
+![Alternative link](https://raw.githubusercontent.com/KhronosGroup/glTF-External-Reference/main/explainers/videos/scene_arrangement.mp4)
 
 ## Implementation Notes
 To create this demo, we need create a new offscreen framebuffer, which will write an color ID per asset, the position and the normal for each fragment into a texture output. We can then select the picked pixel to extract the information. One wants to exclude already selected assets from this draw call to allow smooth translation on the surfaces below.\
