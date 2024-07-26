@@ -1,5 +1,10 @@
+# Copyright 2024 The Khronos Group Inc.
+#
+# SPDX-License-Identifier: Apache-2.0
+
+
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy gltfx demo to Pages
 
 on:
   # Allows you to run this workflow manually from the Actions tab
