@@ -1,0 +1,62 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Rehman_Is_Here (https://skfb.ly/oNQzL)",
+            "year": "2023",
+            "owner": "Rehman_Is_Here (https://skfb.ly/oNQzL)",
+            "what": "Silent Hill 2 Baldwin Study Room Normal",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "m3org (https://skfb.ly/oO6Hp)",
+            "year": "2023",
+            "owner": "m3org (https://skfb.ly/oO6Hp)",
+            "what": "DAOtown Building Kit",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC0 1.0 Universal",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "artist": "Greg Zaal, Jarod Guest",
+            "year": "2023",
+            "owner": "Greg Zaal, Jarod Guest",
+            "what": "Syferfontein 6d Clear (Pure Sky) https://polyhaven.com/a/syferfontein_6d_clear_puresky"
+        },
+        {
+            "license": "CC0 1.0 Universal",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "artist": "Greg Zaal",
+            "year": "2023",
+            "owner": "Greg Zaal",
+            "what": "Fireplace HDRI https://polyhaven.com/a/fireplace"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "UX3D GmbH",
+            "year": "2024",
+            "owner": "Khronos Group",
+            "what": "glTFX composing",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "gltfx",
+        "extension"
+    ],
+    "name": "Environment Light Demo",
+    "path": "./Models/EnvironmentLightDemo",
+    "createReadme": true
+}

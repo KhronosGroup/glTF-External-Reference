@@ -25,3 +25,78 @@ License: CC-BY-4.0
 Files: explainers/videos/*
 Copyright: 2024 The Khronos Group, Inc.
 License: CC-BY-4.0
+
+Files: demo/Models/*
+Copyright: 
+  2024 The Khronos Group, Inc.
+License: CC-BY-4.0
+
+Files: demo/Models/BillboardDemo/*
+Copyright: 
+  2023 Nik (https://skfb.ly/oKxPw)
+  2023 EFX (https://skfb.ly/oM8uB)
+  2023 Christian Robertson
+  2024 The Khronos Group, Inc.
+License: CC-BY-4.0 AND Apache-2.0
+
+Files: demo/Models/EnvironmentLightDemo/*
+Copyright: 
+  2023 Rehman_Is_Here (https://skfb.ly/oNQzL)
+  2023 m3org (https://skfb.ly/oO6Hp)
+  2023 Greg Zaal
+  2023 Jarod Guest
+  2024 The Khronos Group, Inc.
+License: CC-BY-4.0 AND CC0-1.0
+
+Files: demo/Models/LODTest/*
+Copyright: 
+  2020 Austin Crane (Euclid)
+  2024 The Khronos Group, Inc.
+License: CC-BY-4.0
+
+Files: demo/Models/PunctualLightDemo/*
+Copyright: 
+  2023 m3org (https://skfb.ly/oO6Hp)
+  2020 BLM National Operations Center Geospatial Imaging
+  2024 The Khronos Group, Inc.
+License: CC-BY-4.0
+
+Files: demo/Models/RoomWithChess/*
+Copyright: 
+  2020 ASWF
+  2022 Ed Mackey
+  2016 zamorev4d (https://skfb.ly/WwBD)
+  2024 The Khronos Group, Inc.
+License: CC-BY-4.0
+
+Files: demo/Models/VFXTest/*
+Copyright: 
+  2013 www.opengl-tutorial.org
+  2024 The Khronos Group, Inc.
+License: CC-BY-NC-ND-1.0 AND CC-BY-4.0
+
+Files: demo/assets/**
+Copyright:
+  2024 The Khronos Group, Inc.
+License: Apache-2.0
+
+Files: demo/*
+Copyright: 
+  2024 The Khronos Group, Inc.
+  https://github.com/KhronosGroup/glTF-Sample-Viewer
+License: Apache-2.0
+
+Files: demo/environments/Cannon_Exterior.hdr
+Copyright:
+  2021 Greg Zaal
+License: CC0-1.0
+
+Files: demo/libs/libktx*
+Copyright:
+  2024 https://github.com/KhronosGroup/KTX-Software
+License: Apache-2.0
+
+Files: demo/libs/mikktspace* demo/62b6c493308d7b10.wasm
+Copyright:
+  2024 https://github.com/donmccurdy/mikktspace-wasm
+License: MIT

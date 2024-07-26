@@ -1,0 +1,35 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "Austin Crane (Euclid) (https://skfb.ly/6RT9p)",
+            "year": "2020",
+            "owner": "Austin Crane (Euclid) (https://skfb.ly/6RT9p)",
+            "what": "Medieval Flask",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "UX3D GmbH",
+            "year": "2024",
+            "owner": "Khronos Group",
+            "what": "glTFX composing",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "gltfx",
+        "extension"
+    ],
+    "name": "Level of Detail Demo",
+    "path": "./Models/LODTest",
+    "createReadme": true
+}

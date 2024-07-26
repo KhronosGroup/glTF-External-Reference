@@ -1,0 +1,46 @@
+{
+    "version": 2,
+    "legal": [
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "m3org (https://skfb.ly/oO6Hp)",
+            "year": "2023",
+            "owner": "m3org (https://skfb.ly/oO6Hp)",
+            "what": "DAOtown Building Kit",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "BLM National Operations Center Geospatial Imaging (https://skfb.ly/6TsDZ)",
+            "year": "2020",
+            "owner": "BLM National Operations Center Geospatial Imaging (https://skfb.ly/6TsDZ)",
+            "what": "Twin Angels",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        },
+        {
+            "license": "CC-BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "artist": "UX3D GmbH",
+            "year": "2024",
+            "owner": "Khronos Group",
+            "what": "glTFX composing",
+            "text": "CC BY 4.0 International",
+            "spdx": "CC-BY-4.0",
+            "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        }
+    ],
+    "tags": [
+        "showcase",
+        "gltfx",
+        "extension"
+    ],
+    "name": "Punctual Light Demo",
+    "path": "./Models/PunctualLightDemo",
+    "createReadme": true
+}
