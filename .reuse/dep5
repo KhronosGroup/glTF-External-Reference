@@ -22,6 +22,11 @@ Files: explainers/images/*
 Copyright: 2024 The Khronos Group, Inc.
 License: CC-BY-4.0
 
+Files: demo/Models/*
+Copyright: 
+  2024 The Khronos Group, Inc.
+License: CC-BY-4.0
+
 Files: demo/Models/BillboardDemo/*
 Copyright: 
   2023 Nik (https://skfb.ly/oKxPw)
@@ -65,3 +70,27 @@ Copyright:
   2013 www.opengl-tutorial.org
   2024 The Khronos Group, Inc.
 License: CC-BY-NC-ND-1.0 AND CC-BY-4.0
+
+Files: demo/assets/ui/*
+Copyright:
+  2024 The Khronos Group, Inc.
+License: Apache-2.0
+
+Files: demo/*
+Copyright: 
+  2024 The Khronos Group, Inc.
+  https://github.com/KhronosGroup/glTF-Sample-Viewer
+License: Apache-2.0
+
+Files: demo/assets/environments/Cannon_Exterior.hdr
+License: CC0-1.0
+
+Files: demo/libs/libktx*
+Copyright:
+  2024 https://github.com/KhronosGroup/KTX-Software
+License: Apache-2.0
+
+Files: demo/libs/mikktspace* demo/62b6c493308d7b10.wasm
+Copyright:
+  2024 https://github.com/donmccurdy/mikktspace-wasm
+License: MIT
