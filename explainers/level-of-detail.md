@@ -65,6 +65,7 @@ The following figures show the same scene with different camera views. If the as
 </div>
  
 
+![Demo Video](https://raw.githubusercontent.com/KhronosGroup/glTF-External-Reference/main/explainers/videos/lod.mp4)
 
 ### File Schema
 

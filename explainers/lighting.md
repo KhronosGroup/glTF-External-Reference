@@ -27,6 +27,7 @@ In the real world light generally illuminates other near-by models. This situati
 *Punctual lights illuminating whole scene*
 
 
+![Demo Video](https://raw.githubusercontent.com/KhronosGroup/glTF-External-Reference/main/explainers/videos/punctual_lights.mp4)
 
 The situation is similar for environmental lighting. For example. this is necessary when the exterior of a model is in a different environment (say bright sunlight) than the interior (dimmed lighting). (need screen shots of these two cases)
 
