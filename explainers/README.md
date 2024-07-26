@@ -21,6 +21,6 @@ These documents are not the specification.
 
 * [Level of Detail](level-of-detail.md) - Describes situations where a model must change because more or less detail is needed. Several different measures for determining transition points are discussed
 
-* [Billboard](billboard.md) - _not yet written_
+* [Billboard](billboard.md) - Describes a draft glTF extension which instructs a node to align itself with the current camera.
 
 * [Scene arrangement demo](scene-arrangement.md) - Describes a demo which enables the user to pick assets of a glTFX and move them onto other assets via snapping and re-parenting
