@@ -9,9 +9,9 @@ SPDX-License-Identifier: CC-BY-4.0
 
 [![Join the forums](https://img.shields.io/badge/discuss-in%20forums-blue.svg)](https://community.khronos.org/c/gltf-general)
 
-glTF External Reference Format defines how multiple multiple glTF models fit together and interact within a complex scene. It is not currently a specification. It has been referred to by several names in the past including "glTFX", "glXF", "glTF Experience Format", and "glX". At this time there is no official short name nor acronym. 
+glTF External Reference Format defines how multiple glTF models fit together and interact within a complex scene. It is not currently a specification. It has been referred to by several names in the past including "glTFX", "glXF", "glTF Experience Format", and "glX". At this time there is no official short name nor acronym. 
 
-The specification documents in this repo are the original submission from 2022. The format has undergone significant conceptual changes from then; however, the specification documents have not yet been updated and are considered obsolete. Documents that refer to "glTF Experience Format" or "glFX" are old. No work should be done on those documents that extends or corrects them. We anticipate starting new replcement documents in 2H2024.
+The specification documents in this repo are the original submission from 2022. The format has undergone significant conceptual changes from then; however, the specification documents have not yet been updated and are considered obsolete. Documents that refer to "glTF Experience Format" or "glFX" are old. No work should be done on those documents that extends or corrects them. We anticipate starting new replcement documents by 2H2025.
 
 In 2023 and 2024 the glTF Composition & Interactivity project worked on by UX3D on behalf of Khronos, investigated use cases and potential additions to the glTFX format.\
 The following features were explored:
