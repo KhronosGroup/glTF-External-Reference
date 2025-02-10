@@ -1,6 +1,6 @@
 # Scene arrangement demo
 ## Needs
-This demo should show an application of glTFX, which leverages the new functionality of combining different assets in one file. This demo allows the user to arrange different assets in a scene by placing them on top of each other. This can be used e.g. to arrange furniture in a room.
+This demo should show an application of glTF External Reference, which leverages the new functionality of combining different assets in one file. This demo allows the user to arrange different assets in a scene by placing them on top of each other. This can be used e.g. to arrange furniture in a room.
 ## Results
 The demo consists of two technical parts: \
 In order to allow an asset to be moved, it first needs to be selected. For this we assigned a unique color for each asset in a separate picking draw call. Now the user can double click on an asset and the asset and all its children will be highlighted.\

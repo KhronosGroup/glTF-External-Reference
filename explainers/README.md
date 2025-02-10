@@ -9,11 +9,13 @@ SPDX-License-Identifier: CC-BY-4.0
 
 [![Join the forums](https://img.shields.io/badge/discuss-in%20forums-blue.svg)](https://community.khronos.org/c/gltf-general)
 
-glTF Reference Format (glTFX) is the specification for a new file type in the glTF ecosystem for efficient composition of multiple glTF assets.
+glTF External Reference Format is the specification for a new file structure in the glTF ecosystem for efficient composition of multiple glTF assets.
 
-This section explainers many aspects of the specification. It was developed prior to written the glTFX Specification documents and frequently presents multiple solutions that the specification editor team may choose to restrict.
+The explainers in this section discuss many aspects of the capability. The work was done as prototypes to identify and investigate potential solutions to some of the known problems with complex scenes. It was developed prior to a written specification and may not reflect the solution choosen by the specification developers. 
 
-These documents are not the specification.
+For the purpose of the prototype examples the file extension _.gltfx_ was used. This is not a requirement on any future specification nor commitment to use this designation or format.
+
+Note: These documents are not the specification.
 
 ## Explainers
 
